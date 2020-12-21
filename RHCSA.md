@@ -85,6 +85,7 @@ root@server0 ~]# <code>rpm -ivh http://classroom.example.com/BaseOS/Packages/dnf
 [root@server0 ~]# <code>systemctl enable httpd</code>
 </pre>
 </details>
+
 ### 4. 配置用户账户
 
 创建下列用户、组和组成员资格
