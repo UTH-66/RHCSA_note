@@ -191,7 +191,7 @@ success
 
 SELinux安全机制：一套增强 Linux系统安全的强制访问控制体系，在系统内部控制本地的访问
 
-![SELinux](.\img\SELinux.png)
+![SELinux](./img/SELinux.png)
 
 **SELinux的运行模式：**
 
