@@ -655,10 +655,10 @@ pool1      fs1   546 MiB  Dec 20 2020 01:13  /stratis/pool1/fs1  a4db0fa6e32248a
 就可其他的物理分区和LVM分区一样，创建挂载点，挂载使用即可，自动挂载需要编辑 `/etc/fstab`
 
 ```bash
-/stratis/pool1/fs1   /part3   xfs   defaults,x-systemd.requires=stratisd.service   0 0
+UUID=a4db0fa6-e322-48aa-90e3-f2df1af73919   /part3   xfs   defaults,x-systemd.requires=stratisd.service   0 0
 ```
 
-建议使用 `UUID`进行挂载，此外需要声明该分区要在系统启动了 `stratisd`服务后挂载
+**强烈建议**使用 `UUID`进行挂载，此外需要声明该分区要在系统启动了 `stratisd`服务后挂载
 
 ### 6#创建快照
 
