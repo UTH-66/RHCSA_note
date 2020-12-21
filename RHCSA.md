@@ -369,6 +369,7 @@ gpgcheck=0</code>
 [root@server1 ~]# <code>mount -a /mnt/np</code>
 </pre>
 </details>
+
 ### 6. 创建VDO卷
 
 根据如下要求，创建新的 VDO 卷：
