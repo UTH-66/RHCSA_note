@@ -326,6 +326,7 @@ gpgcheck=0</code>
 [root@server1 ~]# <code>resize2fs /dev/myvol/vo</code>
 </pre>
 </details>
+
 ### 4. 添加交换分区
 
 向您的系统添加一个额外的交换分区 567MiB 。
