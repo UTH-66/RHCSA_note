@@ -241,6 +241,7 @@ user1  -rw   classroom.example.com:/rhel8/user1</code>
 [root@server0 ~]# <code>grep re /etc/passwd > /root/files</code>
 </pre>
 </details>
+
 ### 13. 创建归档
 
 创建一个名为 `/root/books.tar.gz`的 tar归档，其应包含 `/usr/local`的 tar归档，其应包含 `/usr/local`的内容。该 tar归 档必须使用 `gzip`进行压缩
