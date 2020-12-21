@@ -356,7 +356,7 @@ Unable to find suitable address.
 
 启动后，就可以在浏览器中看到测试页了
 
-![httpd测试页](.\img\172.25.0.11_.png)
+![httpd测试页](./img/172.25.0.11_.png)
 
 #### 3# 修改配置文件
 
